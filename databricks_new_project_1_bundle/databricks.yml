@@ -38,7 +38,9 @@ targets:
     workspace:
       host: https://dbc-574a2068-d7c4.cloud.databricks.com
       # We explicitly deploy to /Workspace/Users/adhyatmmishra27@gmail.com to make sure we only have a single copy.
-      root_path: /Workspace/Users/adhyatmmishra27@gmail.com/.bundle/${bundle.name}/${bundle.target}
+      # the root path below is the repository name of my github
+      root_path: /Workspace/databricks_new_project
+
     variables:
       catalog: project_production
       schema: prod
