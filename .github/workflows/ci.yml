@@ -19,4 +19,4 @@ jobs:
           databricks-host: https://dbc-574a2068-d7c4.cloud.databricks.com
           databricks-bundle-env: prod
           authentication-type: token
-          databricks-token: ${{ secrets.DATABRICKS_TOKEN }}
+          databricks-token: ${{ secrets.DATABRICKS_TOKEN }} #present in repository secrets
